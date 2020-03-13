@@ -1,4 +1,4 @@
-#include "DipQt.h"
+#include "dip_qt.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])

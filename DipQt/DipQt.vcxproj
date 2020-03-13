@@ -80,17 +80,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DipQt.cpp" />
+    <ClCompile Include="dip_qt.cpp" />
+    <ClCompile Include="image_class.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="paint_widget.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="DipQt.h" />
+    <QtMoc Include="dip_qt.h" />
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="DipQt.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="DipQt.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="image_class.h" />
+    <ClInclude Include="ui_dip_qt.h" />
+    <QtMoc Include="paint_widget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
